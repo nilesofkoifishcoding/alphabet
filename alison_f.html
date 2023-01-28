@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            /* https://unsplash.com/photos/YfP_VibQbhg */
+            body { 
+                background-image: url('https://images.unsplash.com/photo-1674240568812-d7481f3699a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1828&q=80');
+                background-repeat: no-repeat;
+                background-size: cover;
+                text-align: left;
+                font-family: sans-serif;
+                /*background-color: orangered;*/
+            }
+            h1 { 
+                color: white;
+                /*background-image: linear-gradient(90deg, yellow, blue);
+                background-clip: text;
+                color: transparent;
+                /*text-align: center;*/
+            }
+            h3 { 
+                color: white;
+                /*text-align: center;*/
+            }
+            p { 
+                color: white;
+                /*text-align: center;*/
+            }
+        </style>
+    </head>
+    
+    <!-- Parent of all elements -->
+    <body>
+      <h1>MY CREED</h1>
+      <h3>January 24, 2023</h3> 
+      <!--- Note: 6 h tags -->
+      <p>I am a <b>coder</b>.</p>
+      <p>I am <i>great.</i></p>
+
+      <!-- Invoke alert function -->
+      <p onclick="screamMyName()">I am <u>Alison F.</u></p>
+      
+      <h4>My Values</h4>
+      <ul> 
+        <li>Reliable</li>
+        <li>Continous Learner</li>
+        <li>Autonomous</li>
+      </ul>
+
+      <h4>Morning Routine</h4>
+      <ol>
+            <li>Wash face</li>
+            <li>Make coffee</li>
+            <li>Go for walk</li>
+      </ol>
+
+      <!-- Add button with link. Spec target _blank to open link in new tab.-->
+      <a href="https://www.linkedin.com/company/harvard-business-review/" target="_blank"> <!-- Anchor tag - Means this is a link -->
+        <button>Check out the Harvard Business Review</button>
+      </a>
+
+      <script> 
+      // JS - alert(name)
+        function screamMyName() {
+            alert('Alison F')
+        }
+      </script>
+    </body>
+</html>
